@@ -9,6 +9,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'sqlite3', '~> 1.4'
 # Use simple_form for forms
 gem 'simple_form'
+# Use devise for user management
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
