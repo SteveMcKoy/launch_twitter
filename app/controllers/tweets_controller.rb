@@ -1,5 +1,5 @@
 class TweetsController < ApplicationController
   def new
-    @opinion = "bad anime opinion"
+    @tweet = Tweet.new
   end
 end
