@@ -7,7 +7,7 @@ Age: <%= @profile.age %><br>
 <% if @profile.user.tweets.any? %>
 <ul class="list-group">
   <br>
-  <% @profile.user.tweets.each do |tweet| %>
+  <% @profile.user.tweets.reverse.each do |tweet| %>
     <li class="list-group-item"><%= tweet.content %></li>
     <% end %>
 </ul>
